@@ -5,7 +5,7 @@
     "scientific_name": "Zea mays",
     "family": "Poaceae",
     "crop_type": "cereal",
-    "image": { "alt": "Maize plant", "url": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Maize plant", "url": "https://images.unsplash.com/photo-1554402100-8d1d9f3dff80?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Humid Rainforest", "Guinea Savannah"],
       "soil": "Well-drained loam",
@@ -41,7 +41,7 @@
     "scientific_name": "Vigna unguiculata",
     "family": "Fabaceae",
     "crop_type": "legume",
-    "image": { "alt": "Cowpea plant", "url": "https://images.unsplash.com/photo-1599578705716-8d3d9246f53b?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Cowpea plant", "url": "https://plus.unsplash.com/premium_photo-1671130295735-25af5e78d40c?q=80&w=384&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Sudan Savannah", "Sahel"],
       "soil": "Sandy loam",
@@ -72,7 +72,7 @@
     "scientific_name": "Manihot esculenta",
     "family": "Euphorbiaceae",
     "crop_type": "root_tuber",
-    "image": { "alt": "Cassava plant", "url": "https://images.unsplash.com/photo-1626202377853-48135832a8ba?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Cassava plant", "url": "https://images.unsplash.com/photo-1757283961570-682154747d9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Humid Rainforest", "Guinea Savannah"],
       "soil": "Light textured soils",
@@ -103,7 +103,7 @@
     "scientific_name": "Dioscorea rotundata",
     "family": "Dioscoreaceae",
     "crop_type": "root_tuber",
-    "image": { "alt": "White yam tubers", "url": "https://images.unsplash.com/photo-1596450514735-373972620021?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "White yam tubers", "url": "https://i.pinimg.com/736x/2a/5c/37/2a5c371b5a4b41c95ef41f0ee1e13cd3.jpg" },
     "growing_conditions": {
       "climate": ["Guinea Savannah", "Humid Rainforest"],
       "soil": "Deep fertile loam",
@@ -134,7 +134,7 @@
     "scientific_name": "Musa paradisiaca",
     "family": "Musaceae",
     "crop_type": "fruit",
-    "image": { "alt": "Plantain bunch", "url": "https://images.unsplash.com/photo-1596660634628-9844f24300e8?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Plantain bunch", "url": "https://plus.unsplash.com/premium_photo-1663954864079-7452e284aeae?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Humid Rainforest"],
       "soil": "Rich organic soil",
@@ -165,7 +165,7 @@
     "scientific_name": "Solanum lycopersicum",
     "family": "Solanaceae",
     "crop_type": "vegetable",
-    "image": { "alt": "Tomato plant", "url": "https://images.unsplash.com/photo-1592841200921-9957d34551d0?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Tomato plant", "url": "https://images.unsplash.com/photo-1582284540020-8acbe03f4924?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Guinea Savannah", "Sudan Savannah"],
       "soil": "Fertile loam",
@@ -196,7 +196,7 @@
     "scientific_name": "Sorghum bicolor",
     "family": "Poaceae",
     "crop_type": "cereal",
-    "image": { "alt": "Sorghum heads", "url": "https://images.unsplash.com/photo-1634483487079-c5675f9226d4?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Sorghum heads", "url": "https://images.unsplash.com/photo-1714469914199-14ab69eae5f3?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Sudan Savannah", "Sahel"],
       "soil": "Clay or Loam",
@@ -227,7 +227,7 @@
     "scientific_name": "Theobroma cacao",
     "family": "Malvaceae",
     "crop_type": "cash_crop",
-    "image": { "alt": "Cocoa pods", "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Cocoa pods", "url": "https://images.unsplash.com/photo-1743252878695-367d69dc87a8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Humid Rainforest"],
       "soil": "Deep, well-drained",
@@ -258,7 +258,7 @@
     "scientific_name": "Arachis hypogaea",
     "family": "Fabaceae",
     "crop_type": "legume",
-    "image": { "alt": "Groundnut plant", "url": "https://images.unsplash.com/photo-1567306301408-9b74779a11af?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Groundnut plant", "url": "https://plus.unsplash.com/premium_photo-1669998296160-fd227fe42efe?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Sudan Savannah", "Guinea Savannah"],
       "soil": "Sandy loam",
@@ -289,7 +289,7 @@
     "scientific_name": "Capsicum spp.",
     "family": "Solanaceae",
     "crop_type": "vegetable",
-    "image": { "alt": "Pepper plant", "url": "https://images.unsplash.com/photo-1596199050105-6d5d3293e18f?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Pepper plant", "url": "https://images.unsplash.com/photo-1735959096977-4f435c12428d?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Tropical"],
       "soil": "Fertile loam",
@@ -320,7 +320,7 @@
     "scientific_name": "Allium cepa",
     "family": "Amaryllidaceae",
     "crop_type": "vegetable",
-    "image": { "alt": "Onion bulbs", "url": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Onion bulbs", "url": "https://plus.unsplash.com/premium_photo-1723708958105-09e29205e551?q=80&w=844&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     "growing_conditions": {
       "climate": ["Sudan Savannah"],
       "soil": "Loose, well-drained",
@@ -351,7 +351,7 @@
     "scientific_name": "Colocasia esculenta",
     "family": "Araceae",
     "crop_type": "root_tuber",
-    "image": { "alt": "Cocoyam leaves", "url": "https://images.unsplash.com/photo-1629155700887-7359551c3186?q=80&w=1000&auto=format&fit=crop" },
+    "image": { "alt": "Cocoyam leaves", "url": "https://i.pinimg.com/736x/f0/db/99/f0db99c811be49209ce10aa5c8810abd.jpg" },
     "growing_conditions": {
       "climate": ["Humid Rainforest"],
       "soil": "Moist, fertile",
