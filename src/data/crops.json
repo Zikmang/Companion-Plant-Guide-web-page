@@ -1,0 +1,379 @@
+[
+  {
+    "plant_id": "maize",
+    "common_name": "Maize",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae",
+    "crop_type": "cereal",
+    "image": { "alt": "Maize plant", "url": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Humid Rainforest", "Guinea Savannah"],
+      "soil": "Well-drained loam",
+      "rainfall": "500–1200 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "cowpea",
+          "relationship_type": "Nitrogen Fixation",
+          "summary": "Cowpea fixes atmospheric nitrogen, reducing the need for fertilizer, while Maize provides structural support."
+        },
+        {
+          "plant_id": "cassava",
+          "relationship_type": "Spatial Complementarity",
+          "summary": "Maize harvests early, allowing slow-growing Cassava to take over the space later in the season."
+        },
+        {
+          "plant_id": "groundnut",
+          "relationship_type": "Ground Cover",
+          "summary": "Groundnut acts as a living mulch, suppressing weeds and retaining soil moisture for the tall maize stalks."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Maize is the backbone of West African food security. It is versatile, growing in diverse ecological zones, and serves as a critical source of carbohydrates.",
+    "notes": "Best planted at the onset of rains. Susceptible to striga weed, which legumes can help suppress."
+  },
+  {
+    "plant_id": "cowpea",
+    "common_name": "Cowpea",
+    "scientific_name": "Vigna unguiculata",
+    "family": "Fabaceae",
+    "crop_type": "legume",
+    "image": { "alt": "Cowpea plant", "url": "https://images.unsplash.com/photo-1599578705716-8d3d9246f53b?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Sudan Savannah", "Sahel"],
+      "soil": "Sandy loam",
+      "rainfall": "300–800 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "maize",
+          "relationship_type": "Shade Regulation",
+          "summary": "Thrives under the partial shade of cereals like Maize and Sorghum, maximizing land use efficiency."
+        },
+        {
+          "plant_id": "sorghum",
+          "relationship_type": "Pest Management",
+          "summary": "Intercropping with Sorghum can reduce flower thrips populations and improve overall grain yield."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Known as the 'hungry season crop', Cowpea provides essential protein when other crops are yet to mature. It is incredibly drought-resistant.",
+    "notes": "Avoid waterlogged soils. Its leaves, pods, and seeds are all edible."
+  },
+  {
+    "plant_id": "cassava",
+    "common_name": "Cassava",
+    "scientific_name": "Manihot esculenta",
+    "family": "Euphorbiaceae",
+    "crop_type": "root_tuber",
+    "image": { "alt": "Cassava plant", "url": "https://images.unsplash.com/photo-1626202377853-48135832a8ba?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Humid Rainforest", "Guinea Savannah"],
+      "soil": "Light textured soils",
+      "rainfall": "1000–1500 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "maize",
+          "relationship_type": "Timing",
+          "summary": "Compatible because they compete for resources at different times; Maize is fast, Cassava is slow."
+        },
+        {
+          "plant_id": "groundnut",
+          "relationship_type": "Nutrient Cycling",
+          "summary": "Groundnuts add nitrogen to the soil which supports the heavy nutrient demands of Cassava tubers."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "A woody shrub native to South America but now a staple in Nigeria. It is highly resilient to poor soils and erratic rainfall.",
+    "notes": "Requires good drainage to prevent root rot. Processing is required to remove cyanogenic glycosides."
+  },
+  {
+    "plant_id": "yam",
+    "common_name": "Yam",
+    "scientific_name": "Dioscorea rotundata",
+    "family": "Dioscoreaceae",
+    "crop_type": "root_tuber",
+    "image": { "alt": "White yam tubers", "url": "https://images.unsplash.com/photo-1596450514735-373972620021?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Guinea Savannah", "Humid Rainforest"],
+      "soil": "Deep fertile loam",
+      "rainfall": "1000–1500 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "maize",
+          "relationship_type": "Staking",
+          "summary": "Farmers often plant maize early; the dried maize stalks later serve as stakes for the climbing yam vines."
+        },
+        {
+          "plant_id": "plantain",
+          "relationship_type": "Shade",
+          "summary": "Young yams benefit from the dappled shade provided by broad plantain leaves during early establishment."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Yam is culturally significant in Nigeria, often called the 'King of Crops'. It requires deep, loose soil for tuber expansion.",
+    "notes": "Mounding is essential for good formation. Staking increases yield by exposing leaves to sunlight."
+  },
+  {
+    "plant_id": "plantain",
+    "common_name": "Plantain",
+    "scientific_name": "Musa paradisiaca",
+    "family": "Musaceae",
+    "crop_type": "fruit",
+    "image": { "alt": "Plantain bunch", "url": "https://images.unsplash.com/photo-1596660634628-9844f24300e8?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Humid Rainforest"],
+      "soil": "Rich organic soil",
+      "rainfall": "1200–2000 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "cocoa",
+          "relationship_type": "Shade Nurse",
+          "summary": "Plantains provide essential shade for young cocoa seedlings, protecting them from scorching sun."
+        },
+        {
+          "plant_id": "cocoyam",
+          "relationship_type": "Understory",
+          "summary": "Cocoyam thrives in the moist, shady microclimate beneath the broad plantain canopy."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "A major source of energy in the south. Unlike bananas, plantains are typically cooked before eating.",
+    "notes": "Highly susceptible to wind damage; planting in clusters helps. Requires high organic matter."
+  },
+  {
+    "plant_id": "tomato",
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "crop_type": "vegetable",
+    "image": { "alt": "Tomato plant", "url": "https://images.unsplash.com/photo-1592841200921-9957d34551d0?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Guinea Savannah", "Sudan Savannah"],
+      "soil": "Fertile loam",
+      "rainfall": "600–1200 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "onion",
+          "relationship_type": "Pest Repellent",
+          "summary": "The strong scent of onions confuses pests like aphids and beetles that typically attack tomatoes."
+        },
+        {
+          "plant_id": "pepper",
+          "relationship_type": "Similar Needs",
+          "summary": "Often intercropped due to similar water and nutrient requirements, simplifying irrigation schedules."
+        }
+      ],
+      "harmful": ["maize"]
+    },
+    "overview": "Essential for Nigerian stews and sauces. While lucrative, it is sensitive to pests and fungal diseases.",
+    "notes": "Staking is recommended to keep fruits off the ground and reduce rot. Crop rotation is vital."
+  },
+  {
+    "plant_id": "sorghum",
+    "common_name": "Sorghum",
+    "scientific_name": "Sorghum bicolor",
+    "family": "Poaceae",
+    "crop_type": "cereal",
+    "image": { "alt": "Sorghum heads", "url": "https://images.unsplash.com/photo-1634483487079-c5675f9226d4?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Sudan Savannah", "Sahel"],
+      "soil": "Clay or Loam",
+      "rainfall": "400–900 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "groundnut",
+          "relationship_type": "Soil Health",
+          "summary": "Sorghum roots break up heavy soil, while groundnuts replenish the nitrogen Sorghum consumes."
+        },
+        {
+          "plant_id": "cowpea",
+          "relationship_type": "Trap Crop",
+          "summary": "Sorghum can act as a windbreak for cowpea and help manage Striga parasitic weed populations."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "An ancient grain perfectly adapted to hot, arid climates where maize might fail. Used for food, fodder, and brewing.",
+    "notes": "Very drought tolerant. Bird attacks on grain heads can be a major challenge."
+  },
+  {
+    "plant_id": "cocoa",
+    "common_name": "Cocoa",
+    "scientific_name": "Theobroma cacao",
+    "family": "Malvaceae",
+    "crop_type": "cash_crop",
+    "image": { "alt": "Cocoa pods", "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Humid Rainforest"],
+      "soil": "Deep, well-drained",
+      "rainfall": "1200mm+",
+      "sunlight": "Partial Shade"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "plantain",
+          "relationship_type": "Shade Nurse",
+          "summary": "Essential for young cocoa. Plantain leaves protect delicate cocoa seedlings from direct tropical sun."
+        },
+        {
+          "plant_id": "cassava",
+          "relationship_type": "Temporary Intercrop",
+          "summary": "Cassava provides ground cover and quick economic returns while waiting for cocoa trees to mature."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Nigeria's major non-oil export. Cocoa requires specific humid conditions and shade management to thrive.",
+    "notes": "Requires careful fermentation and drying of beans. Susceptible to Black Pod disease."
+  },
+  {
+    "plant_id": "groundnut",
+    "common_name": "Groundnut",
+    "scientific_name": "Arachis hypogaea",
+    "family": "Fabaceae",
+    "crop_type": "legume",
+    "image": { "alt": "Groundnut plant", "url": "https://images.unsplash.com/photo-1567306301408-9b74779a11af?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Sudan Savannah", "Guinea Savannah"],
+      "soil": "Sandy loam",
+      "rainfall": "500–1000 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "maize",
+          "relationship_type": "Nutrient Exchange",
+          "summary": "Groundnut fixes nitrogen for the heavy-feeding maize, while maize provides a microclimate."
+        },
+        {
+          "plant_id": "sorghum",
+          "relationship_type": "Rotation",
+          "summary": "Excellent rotation partner for sorghum to break disease cycles and restore soil fertility."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "A dual-purpose crop providing food (nuts) and fodder (haulms) for livestock. It fixes its own nitrogen.",
+    "notes": "Loose soil is required for the 'pegs' to penetrate the ground and form pods."
+  },
+  {
+    "plant_id": "pepper",
+    "common_name": "Pepper",
+    "scientific_name": "Capsicum spp.",
+    "family": "Solanaceae",
+    "crop_type": "vegetable",
+    "image": { "alt": "Pepper plant", "url": "https://images.unsplash.com/photo-1596199050105-6d5d3293e18f?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Tropical"],
+      "soil": "Fertile loam",
+      "rainfall": "600–1200 mm",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "onion",
+          "relationship_type": "Pest Deterrent",
+          "summary": "Onions help repel aphids and spider mites that frequently attack pepper plants."
+        },
+        {
+          "plant_id": "tomato",
+          "relationship_type": "Spatial",
+          "summary": "Can be intercropped with tomatoes in small holder systems, though rotation is better for disease control."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Includes both sweet and hot varieties (Scotch Bonnet). A vital spice in West African cuisine.",
+    "notes": "Sensitive to waterlogging. High market value but perishable."
+  },
+  {
+    "plant_id": "onion",
+    "common_name": "Onion",
+    "scientific_name": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "crop_type": "vegetable",
+    "image": { "alt": "Onion bulbs", "url": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Sudan Savannah"],
+      "soil": "Loose, well-drained",
+      "rainfall": "Irrigation often required",
+      "sunlight": "Full sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "tomato",
+          "relationship_type": "Protection",
+          "summary": "Its pungent smell masks the scent of tomatoes, hiding them from pests."
+        },
+        {
+          "plant_id": "pepper",
+          "relationship_type": "Protection",
+          "summary": "Serves as a natural deterrent for aphids in pepper fields."
+        }
+      ],
+      "harmful": ["beans", "peas"]
+    },
+    "overview": "Grown extensively in the dry north using irrigation. It has a high commercial value.",
+    "notes": "Requires curing after harvest to increase shelf life. Shallow rooted."
+  },
+  {
+    "plant_id": "cocoyam",
+    "common_name": "Cocoyam",
+    "scientific_name": "Colocasia esculenta",
+    "family": "Araceae",
+    "crop_type": "root_tuber",
+    "image": { "alt": "Cocoyam leaves", "url": "https://images.unsplash.com/photo-1629155700887-7359551c3186?q=80&w=1000&auto=format&fit=crop" },
+    "growing_conditions": {
+      "climate": ["Humid Rainforest"],
+      "soil": "Moist, fertile",
+      "rainfall": "1200–2000 mm",
+      "sunlight": "Partial sun"
+    },
+    "companions": {
+      "beneficial": [
+        {
+          "plant_id": "plantain",
+          "relationship_type": "Shade Tolerance",
+          "summary": "One of the few crops that yields well under the heavy shade of a plantain or cocoa canopy."
+        },
+        {
+          "plant_id": "cocoa",
+          "relationship_type": "Understory",
+          "summary": "Acts as an effective ground cover in cocoa plantations, suppressing weeds."
+        }
+      ],
+      "harmful": []
+    },
+    "overview": "Valued for both its corms and its leafy greens (kontomire). It prefers wetter conditions than yams.",
+    "notes": "Leaf blight is a major constraint. Requires minimal input compared to other tubers."
+  }
+]

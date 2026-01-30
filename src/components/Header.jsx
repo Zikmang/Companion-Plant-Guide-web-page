@@ -1,45 +1,48 @@
-const Header = ({ appName, tagLine, logoImg }) => {
+import React from 'react';
+import { Search, Bell, User, Sprout } from 'lucide-react';
+
+const Header = ({ searchTerm, setSearchTerm }) => {
+    const links = []
+
   return (
-    <header className="relative overflow-hidden bg-emerald-900 text-white shadow-lg">
-      
-      {/* Decorative background pattern (Optional subtle texture) */}
-      <div className="absolute inset-0 opacity-10">
-        <svg className="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-           <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white" />
-        </svg>
+    <header className="flex items-center justify-between px-8 py-4 bg-white shadow-sm sticky top-0 z-50">
+      {/* Logo Area */}
+      <div className="flex items-center gap-2">
+        <div className="bg-green-500 p-1.5 rounded-lg">
+          <Sprout className="text-white w-6 h-6" />
+        </div>
+        <h1 className="text-xl font-bold text-gray-900 tracking-tight">Plant Companion</h1>
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4">
-          
-          {/* Logo Container */}
-          <div className="shrink-0">
-            {logoImg ? (
-              <img 
-                src={logoImg} 
-                alt={`${appName} Logo`} 
-                className="h-12 w-12 rounded-xl object-cover ring-2 ring-emerald-400/50 sm:h-14 sm:w-14"
-              />
-            ) : (
-              
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-800 text-emerald-100 ring-2 ring-emerald-400/50 sm:h-14 sm:w-14">
-                <span className="text-2xl font-bold">🌱</span>
-              </div>
-            )}
-          </div>
+      {/* Search Bar */}
+      <div className="hidden md:flex flex-1 max-w-lg mx-8 relative">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
+        <input
+          type="text"
+          placeholder="Search for West African crops..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full bg-gray-100 pl-10 pr-4 py-2.5 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all"
+        />
+      </div>
 
-          {/* Text Content */}
-          <div className="flex flex-col">
-            <h1 className="text-2xl font-extrabold tracking-tight sm:text-3xl">
-              {appName}
-            </h1>
-            {tagLine && (
-              <p className="mt-1 text-sm font-medium text-emerald-100/90 sm:text-base">
-                {tagLine}
-              </p>
-            )}
-          </div>
-        </div>
+      {/* Navigation Links */}
+      <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+        <a href="#" className="hover:text-green-600 transition-colors">Dashboard</a>
+        <a href="#" className="text-green-600 border-b-2 border-green-500 pb-0.5">Explorer</a>
+        <a href="#" className="hover:text-green-600 transition-colors">My Garden</a>
+        <a href="#" className="hover:text-green-600 transition-colors">Community</a>
+      </nav>
+
+      {/* User Actions */}
+      <div className="flex items-center gap-4">
+        <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors relative">
+          <Bell className="w-5 h-5 text-gray-700" />
+          <span className="absolute top-1.5 right-2 w-2 h-2 bg-red-500 rounded-full border border-white"></span>
+        </button>
+        <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors">
+          <User className="w-5 h-5 text-gray-700" />
+        </button>
       </div>
     </header>
   );
